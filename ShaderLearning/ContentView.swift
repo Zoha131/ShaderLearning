@@ -18,7 +18,7 @@ struct ContentView: View {
                 Color.red
                     .colorEffect(
                         .init(
-                            function: .init(library: .default, name: "pattern"),
+                            function: .init(library: .default, name: "patternSquareSDF"),
                             arguments: [.float2(proxy.size.width, proxy.size.height), .float(time)]
                         )
                     )
